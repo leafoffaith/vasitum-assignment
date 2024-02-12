@@ -1,0 +1,41 @@
+.navbar--main {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+    height: 4rem;
+    width: 100%;
+
+}
+
+.navbar--search {
+    width: 343px;
+    padding: 10px 16px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+    color: #B3B3B3;
+}
+
+.navbar--profile {
+    display: flex;
+    flex-direction: row;
+    /* top: 1.5vw; */
+    /* right: 5vw;   */
+}
+
+.profile--data {
+    display: flex;
+    flex-direction: row;
+    /* font-family: 'Poppins'; */
+}
+
+.navbar--items {
+    margin: 0px 25px;
+}
